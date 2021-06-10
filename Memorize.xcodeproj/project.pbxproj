@@ -9,21 +9,103 @@
 /* Begin PBXBuildFile section */
 		123AD676266590440086B768 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AD675266590440086B768 /* MemoryGame.swift */; };
 		123AD6782665922A0086B768 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123AD6772665922A0086B768 /* EmojiMemoryGame.swift */; };
+		1255C7842671BF5900215015 /* MemorizeWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1255C7832671BF5900215015 /* MemorizeWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1255C7892671BF5A00215015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1255C7882671BF5A00215015 /* Assets.xcassets */; };
+		1255C7902671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1255C78F2671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1255C7952671BF5A00215015 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7942671BF5A00215015 /* MemorizeApp.swift */; };
+		1255C7972671BF5A00215015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7962671BF5A00215015 /* ContentView.swift */; };
+		1255C7992671BF5A00215015 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7982671BF5A00215015 /* NotificationController.swift */; };
+		1255C79B2671BF5A00215015 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C79A2671BF5A00215015 /* NotificationView.swift */; };
+		1255C79D2671BF5A00215015 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C79C2671BF5A00215015 /* ComplicationController.swift */; };
+		1255C79F2671BF5B00215015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1255C79E2671BF5B00215015 /* Assets.xcassets */; };
+		1255C7A22671BF5B00215015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1255C7A12671BF5B00215015 /* Preview Assets.xcassets */; };
+		1255C7B12671BFA100215015 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7B02671BFA100215015 /* EmojiMemoryGameView.swift */; };
+		1255C7B32671BFBC00215015 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7B22671BFB800215015 /* MemoryGame.swift */; };
+		1255C7B52671BFCB00215015 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255C7B42671BFCB00215015 /* EmojiMemoryGame.swift */; };
 		12E688B2265ED537005121F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E688B1265ED537005121F3 /* AppDelegate.swift */; };
 		12E688B4265ED537005121F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E688B3265ED537005121F3 /* SceneDelegate.swift */; };
-		12E688B6265ED537005121F3 /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E688B5265ED537005121F3 /* OldContentView.swift */; };
+		12E688B6265ED537005121F3 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E688B5265ED537005121F3 /* EmojiMemoryGameView.swift */; };
 		12E688B8265ED538005121F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E688B7265ED538005121F3 /* Assets.xcassets */; };
 		12E688BB265ED538005121F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E688BA265ED538005121F3 /* Preview Assets.xcassets */; };
 		12E688BE265ED538005121F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E688BC265ED538005121F3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1255C7852671BF5900215015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E688A6265ED537005121F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1255C7822671BF5900215015;
+			remoteInfo = "MemorizeWatch WatchKit App";
+		};
+		1255C7912671BF5A00215015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E688A6265ED537005121F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1255C78E2671BF5A00215015;
+			remoteInfo = "MemorizeWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1255C7A82671BF5B00215015 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1255C7902671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1255C7AC2671BF5B00215015 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1255C7842671BF5900215015 /* MemorizeWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12941710267188D900D3E764 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		123AD675266590440086B768 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		123AD6772665922A0086B768 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		1255C7802671BF5900215015 /* MemorizeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1255C7832671BF5900215015 /* MemorizeWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemorizeWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1255C7882671BF5A00215015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1255C78A2671BF5A00215015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1255C78F2671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MemorizeWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1255C7942671BF5A00215015 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		1255C7962671BF5A00215015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1255C7982671BF5A00215015 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1255C79A2671BF5A00215015 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1255C79C2671BF5A00215015 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1255C79E2671BF5B00215015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1255C7A12671BF5B00215015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1255C7A32671BF5B00215015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1255C7A42671BF5B00215015 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1255C7B02671BFA100215015 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
+		1255C7B22671BFB800215015 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		1255C7B42671BFCB00215015 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		12E688AE265ED537005121F3 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E688B1265ED537005121F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E688B3265ED537005121F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12E688B5265ED537005121F3 /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
+		12E688B5265ED537005121F3 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		12E688B7265ED538005121F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E688BA265ED538005121F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12E688BD265ED538005121F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +113,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1255C78C2671BF5A00215015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12E688AB265ED537005121F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +130,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1255C7872671BF5900215015 /* MemorizeWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1255C7882671BF5A00215015 /* Assets.xcassets */,
+				1255C78A2671BF5A00215015 /* Info.plist */,
+			);
+			path = "MemorizeWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		1255C7932671BF5A00215015 /* MemorizeWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1255C7B02671BFA100215015 /* EmojiMemoryGameView.swift */,
+				1255C7B42671BFCB00215015 /* EmojiMemoryGame.swift */,
+				1255C7942671BF5A00215015 /* MemorizeApp.swift */,
+				1255C7B22671BFB800215015 /* MemoryGame.swift */,
+				1255C7962671BF5A00215015 /* ContentView.swift */,
+				1255C7982671BF5A00215015 /* NotificationController.swift */,
+				1255C79A2671BF5A00215015 /* NotificationView.swift */,
+				1255C79C2671BF5A00215015 /* ComplicationController.swift */,
+				1255C79E2671BF5B00215015 /* Assets.xcassets */,
+				1255C7A32671BF5B00215015 /* Info.plist */,
+				1255C7A42671BF5B00215015 /* PushNotificationPayload.apns */,
+				1255C7A02671BF5B00215015 /* Preview Content */,
+			);
+			path = "MemorizeWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1255C7A02671BF5B00215015 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1255C7A12671BF5B00215015 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		12E688A5265ED537005121F3 = {
 			isa = PBXGroup;
 			children = (
 				12E688B0265ED537005121F3 /* Memorize */,
+				1255C7872671BF5900215015 /* MemorizeWatch WatchKit App */,
+				1255C7932671BF5A00215015 /* MemorizeWatch WatchKit Extension */,
 				12E688AF265ED537005121F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				12E688AE265ED537005121F3 /* Memorize.app */,
+				1255C7802671BF5900215015 /* MemorizeWatch.app */,
+				1255C7832671BF5900215015 /* MemorizeWatch WatchKit App.app */,
+				1255C78F2671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +192,7 @@
 			children = (
 				12E688B1265ED537005121F3 /* AppDelegate.swift */,
 				12E688B3265ED537005121F3 /* SceneDelegate.swift */,
-				12E688B5265ED537005121F3 /* OldContentView.swift */,
+				12E688B5265ED537005121F3 /* EmojiMemoryGameView.swift */,
 				123AD675266590440086B768 /* MemoryGame.swift */,
 				123AD6772665922A0086B768 /* EmojiMemoryGame.swift */,
 				12E688B7265ED538005121F3 /* Assets.xcassets */,
@@ -84,6 +214,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1255C77F2671BF5900215015 /* MemorizeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1255C7AD2671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch" */;
+			buildPhases = (
+				1255C77E2671BF5900215015 /* Resources */,
+				1255C7AC2671BF5B00215015 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1255C7862671BF5900215015 /* PBXTargetDependency */,
+			);
+			name = MemorizeWatch;
+			productName = MemorizeWatch;
+			productReference = 1255C7802671BF5900215015 /* MemorizeWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1255C7822671BF5900215015 /* MemorizeWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1255C7A92671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch WatchKit App" */;
+			buildPhases = (
+				1255C7812671BF5900215015 /* Resources */,
+				1255C7A82671BF5B00215015 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1255C7922671BF5A00215015 /* PBXTargetDependency */,
+			);
+			name = "MemorizeWatch WatchKit App";
+			productName = "MemorizeWatch WatchKit App";
+			productReference = 1255C7832671BF5900215015 /* MemorizeWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1255C78E2671BF5A00215015 /* MemorizeWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1255C7A52671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch WatchKit Extension" */;
+			buildPhases = (
+				1255C78B2671BF5A00215015 /* Sources */,
+				1255C78C2671BF5A00215015 /* Frameworks */,
+				1255C78D2671BF5A00215015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemorizeWatch WatchKit Extension";
+			productName = "MemorizeWatch WatchKit Extension";
+			productReference = 1255C78F2671BF5A00215015 /* MemorizeWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		12E688AD265ED537005121F3 /* Memorize */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12E688C2265ED538005121F3 /* Build configuration list for PBXNativeTarget "Memorize" */;
@@ -91,6 +272,7 @@
 				12E688AA265ED537005121F3 /* Sources */,
 				12E688AB265ED537005121F3 /* Frameworks */,
 				12E688AC265ED537005121F3 /* Resources */,
+				12941710267188D900D3E764 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -110,6 +292,15 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					1255C77F2671BF5900215015 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1255C7822671BF5900215015 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1255C78E2671BF5A00215015 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					12E688AD265ED537005121F3 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -129,11 +320,38 @@
 			projectRoot = "";
 			targets = (
 				12E688AD265ED537005121F3 /* Memorize */,
+				1255C77F2671BF5900215015 /* MemorizeWatch */,
+				1255C7822671BF5900215015 /* MemorizeWatch WatchKit App */,
+				1255C78E2671BF5A00215015 /* MemorizeWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1255C77E2671BF5900215015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1255C7812671BF5900215015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255C7892671BF5A00215015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1255C78D2671BF5A00215015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255C7A22671BF5B00215015 /* Preview Assets.xcassets in Resources */,
+				1255C79F2671BF5B00215015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12E688AC265ED537005121F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +365,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1255C78B2671BF5A00215015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255C7992671BF5A00215015 /* NotificationController.swift in Sources */,
+				1255C7972671BF5A00215015 /* ContentView.swift in Sources */,
+				1255C7B12671BFA100215015 /* EmojiMemoryGameView.swift in Sources */,
+				1255C79D2671BF5A00215015 /* ComplicationController.swift in Sources */,
+				1255C7952671BF5A00215015 /* MemorizeApp.swift in Sources */,
+				1255C79B2671BF5A00215015 /* NotificationView.swift in Sources */,
+				1255C7B32671BFBC00215015 /* MemoryGame.swift in Sources */,
+				1255C7B52671BFCB00215015 /* EmojiMemoryGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12E688AA265ED537005121F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,12 +387,25 @@
 				12E688B2265ED537005121F3 /* AppDelegate.swift in Sources */,
 				123AD676266590440086B768 /* MemoryGame.swift in Sources */,
 				12E688B4265ED537005121F3 /* SceneDelegate.swift in Sources */,
-				12E688B6265ED537005121F3 /* OldContentView.swift in Sources */,
+				12E688B6265ED537005121F3 /* EmojiMemoryGameView.swift in Sources */,
 				123AD6782665922A0086B768 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1255C7862671BF5900215015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1255C7822671BF5900215015 /* MemorizeWatch WatchKit App */;
+			targetProxy = 1255C7852671BF5900215015 /* PBXContainerItemProxy */;
+		};
+		1255C7922671BF5A00215015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1255C78E2671BF5A00215015 /* MemorizeWatch WatchKit Extension */;
+			targetProxy = 1255C7912671BF5A00215015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		12E688BC265ED538005121F3 /* LaunchScreen.storyboard */ = {
@@ -173,6 +419,120 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1255C7A62671BF5B00215015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorizeWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MemorizeWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1255C7A72671BF5B00215015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MemorizeWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MemorizeWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1255C7AA2671BF5B00215015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				IBSC_MODULE = MemorizeWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MemorizeWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		1255C7AB2671BF5B00215015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				IBSC_MODULE = MemorizeWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MemorizeWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		1255C7AE2671BF5B00215015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1255C7AF2671BF5B00215015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DTB89Q9FX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bradleyblack.MemorizeWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		12E688C0265ED538005121F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,6 +696,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1255C7A52671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1255C7A62671BF5B00215015 /* Debug */,
+				1255C7A72671BF5B00215015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1255C7A92671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1255C7AA2671BF5B00215015 /* Debug */,
+				1255C7AB2671BF5B00215015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1255C7AD2671BF5B00215015 /* Build configuration list for PBXNativeTarget "MemorizeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1255C7AE2671BF5B00215015 /* Debug */,
+				1255C7AF2671BF5B00215015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		12E688A9265ED537005121F3 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

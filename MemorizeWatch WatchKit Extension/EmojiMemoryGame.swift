@@ -17,9 +17,9 @@ class EmojiMemoryGame: ObservableObject {
     static private var fruitEmojis = ["🍏", "🍎", "🍐", "🍊", "🍋", "🍌", "🍉", "🍇", "🍓", "🫐", "🍈", "🍒", "🍑", "🥭", "🍍", "🥥", "🥝"]
     
     static private var themes = [
-        Theme(name: "Cityscapes", emojiArray: cityscapeEmojis, size: 15, color: "blue"),
-        Theme(name: "Plants", emojiArray: plantEmojis, size: 12, color: "green"),
-        Theme(name: "Fruit", emojiArray: fruitEmojis, size: 12, color: "purple")
+        Theme(name: "Cityscapes", emojiArray: cityscapeEmojis, size: 6, color: "blue"),
+        Theme(name: "Plants", emojiArray: plantEmojis, size: 6, color: "green"),
+        Theme(name: "Fruit", emojiArray: fruitEmojis, size: 6, color: "purple")
     ]
     
     static private func createMemoryGame(theme: Theme) ->
